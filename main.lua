@@ -19,7 +19,6 @@ frame:SetScript("OnEvent", function(self, event, ...)
 end);
 
 for k, v in pairs(events) do
-    print(events)
     frame:RegisterEvent(k); -- Register all events for which handlers have been defined
 end
 
